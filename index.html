@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CineVerto: Script-Driven Audio-Visual Dubbing</title>
+<meta name="description" content="Supplementary results for CineVerto, script-driven audio-visual dubbing.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#top">CineVerto</a>
+  <nav>
+    <a href="#comparison">Comparison</a>
+    <a href="#gallery">Results</a>
+    <a href="#multilingual">Languages</a>
+    <a href="#method">Method</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero band">
+    <div class="wrap">
+      <p class="venue">Anonymous submission &middot; supplementary results</p>
+      <h1>CineVerto</h1>
+      <p class="subtitle">Script-Driven Audio-Visual Dubbing through Reconstruction</p>
+      <p class="lead">Given a video and a new script, CineVerto jointly generates the new speech and the matching mouth movements while keeping the speakers, voices, and scene.</p>
+      <div class="hero-stage" id="hero"></div>
+    </div>
+  </section>
+
+  <section id="comparison" class="band">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Comparison with Baselines</h2>
+        <p>Select a clip. Each video has its own controls; only one video plays sound at a time. Hide a column to compare two methods side by side.</p>
+      </div>
+      <div class="thumbs" id="thumbs" role="tablist" aria-label="Comparison clips"></div>
+      <div id="compare"></div>
+    </div>
+  </section>
+
+  <section id="gallery" class="band alt">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>More CineVerto Results</h2>
+        <p>Single speakers, visible conversations, and offscreen narration in Chinese and English.</p>
+      </div>
+      <div class="filters" id="filters" role="tablist" aria-label="Result groups"></div>
+      <div class="gallery" id="galleryGrid"></div>
+    </div>
+  </section>
+
+  <section id="multilingual" class="band">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>One Clip, Many Languages</h2>
+        <p>The same Chinese clip dubbed into different target languages by one CineVerto model, trained without multilingual paired data.</p>
+      </div>
+      <div id="ml"></div>
+    </div>
+  </section>
+
+  <section id="method" class="band alt">
+    <div class="wrap narrow">
+      <div class="section-head">
+        <h2>Method</h2>
+      </div>
+      <p class="prose">CineVerto adapts a pretrained joint audio-visual generator by reconstructing the original synchronized audio and video, so no dubbed target videos are needed. Dual-Modal Reference Control restricts the source words in the audio reference and the fine mouth motion in the visual reference, which prevents the model from copying the source. A structured prompt assigns each line to its speaker, speaking interval, and onscreen or offscreen role; at inference the target script replaces the source script and the model generates the new audio and video jointly.</p>
+      <figure class="figure">
+        <img src="assets/motivation.png" alt="Supervision strategies for dubbing adaptation" loading="lazy">
+        <figcaption><b>Supervision strategies.</b> (a) Masked mouth reconstruction. (b) Constructed pairs. (c) CineVerto reconstructs the original audio and video from restricted references and a structured prompt.</figcaption>
+      </figure>
+      <figure class="figure">
+        <img src="assets/method.png" alt="CineVerto overview" loading="lazy">
+        <figcaption><b>Overview.</b> (a) Joint Reconstruction Adaptation trains LoRA parameters in both streams of a frozen audio-visual backbone. (b) The visual reference is perturbed and pooled. (c) The audio reference uses sparse original speech or different-text speech in the same voice.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="citation" class="band" hidden>
+    <div class="wrap narrow">
+      <h2>Citation</h2>
+      <pre class="bibtex">@inproceedings{cineverto2027,
+  title     = {CineVerto: Script-Driven Audio-Visual Dubbing through Reconstruction},
+  author    = {Anonymous},
+  year      = {2027}
+}</pre>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">Results are shown for research review. Generated portraits may not exactly match the source.</div>
+</footer>
+
+<script src="assets/icons.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
