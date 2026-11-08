@@ -750,11 +750,38 @@ window.SITE_DATA = {
     "height": 412
    },
    {
+    "code": "it",
+    "label": "Italian",
+    "script": "Non scrivono cose a caso. Molti chiedono se sia un distillato di soli cereali. Ci sono due casi. Per le piccole distillerie, chi lo sa, no? Leggere gli ingredienti non serve. Se viene da queste grandi distillerie, guardate gli ingredienti. Basta che non ci sia scritto aroma alimentare, o roba del genere…",
+    "path": "videos/multilingual/it.mp4",
+    "poster": "videos/multilingual/it.jpg",
+    "width": 720,
+    "height": 412
+   },
+   {
     "code": "es",
     "label": "Spanish",
     "script": "No ponen cualquier cosa en la etiqueta. Muchos preguntan si es licor de grano puro. Hay dos casos. En las destilerías pequeñas, quién sabe, ¿no? Leer los ingredientes no sirve. Si es de estas grandes destilerías, miren los ingredientes. Mientras no ponga aromatizante alimentario, o algo así…",
     "path": "videos/multilingual/es.mp4",
     "poster": "videos/multilingual/es.jpg",
+    "width": 720,
+    "height": 412
+   },
+   {
+    "code": "pt",
+    "label": "Portuguese",
+    "script": "Eles não escrevem qualquer coisa no rótulo. Muitos perguntam se é destilado de grãos puro. Há dois casos. Nas destilarias pequenas, quem sabe, né? Ler os ingredientes não adianta. Se for dessas grandes destilarias, olhem os ingredientes. Desde que não esteja escrito aromatizante alimentício, ou algo assim…",
+    "path": "videos/multilingual/pt.mp4",
+    "poster": "videos/multilingual/pt.jpg",
+    "width": 720,
+    "height": 412
+   },
+   {
+    "code": "nl",
+    "label": "Dutch",
+    "script": "Ze zetten niet zomaar wat op het etiket. Veel mensen vragen: is dit pure graanjenever? Er zijn twee gevallen. Kleine stokerijen, wie zal het zeggen, hè? De ingrediënten lezen helpt niet. Komt het van deze grote stokerijen, kijk dan naar de ingrediënten. Zolang er geen levensmiddelenaroma op staat, of zoiets…",
+    "path": "videos/multilingual/nl.mp4",
+    "poster": "videos/multilingual/nl.jpg",
     "width": 720,
     "height": 412
    },
@@ -768,11 +795,56 @@ window.SITE_DATA = {
     "height": 412
    },
    {
+    "code": "tr",
+    "label": "Turkish",
+    "script": "Etikete rastgele yazmazlar. Çok kişi bunun saf tahıl içkisi olup olmadığını soruyor. İki durum var. Küçük üreticileri kim bilir, değil mi? İçindekilere bakmak da boşuna. Bu büyük üreticilerden biriyse içindekilere bakın. Gıda aroması ya da öyle bir şey yazmıyorsa…",
+    "path": "videos/multilingual/tr.mp4",
+    "poster": "videos/multilingual/tr.jpg",
+    "width": 720,
+    "height": 412
+   },
+   {
     "code": "ar",
     "label": "Arabic",
     "script": "لا يكتبون أي كلام على الملصق. يسألني كثيرون: هل هذا شراب من الحبوب الخالصة؟ هناك حالتان. المصانع الصغيرة، من يدري، صحيح؟ حتى قراءة المكونات لا تفيد. أما إذا كان من هذه المصانع الكبيرة، فاقرؤوا المكونات. ما دام لم يذكر منكّه غذائي أو شيء من هذا…",
     "path": "videos/multilingual/ar.mp4",
     "poster": "videos/multilingual/ar.jpg",
+    "width": 720,
+    "height": 412
+   },
+   {
+    "code": "hi",
+    "label": "Hindi",
+    "script": "लेबल पर यूँ ही कुछ नहीं लिखते। लोग पूछते हैं, क्या यह शुद्ध अनाज की शराब है? दो बातें हैं। छोटी भट्टियों का कौन जाने, है ना? सामग्री पढ़ना भी बेकार है। इन बड़ी भट्टियों की हो तो सामग्री देखिए। बस उसमें खाने वाला फ्लेवर या ऐसा कुछ न लिखा हो तो…",
+    "path": "videos/multilingual/hi.mp4",
+    "poster": "videos/multilingual/hi.jpg",
+    "width": 720,
+    "height": 412
+   },
+   {
+    "code": "id",
+    "label": "Indonesian",
+    "script": "Mereka tidak asal memberi label. Banyak yang tanya, ini murni dari biji-bijian? Ada dua kemungkinan. Pabrik kecil, siapa tahu, kan? Baca daftar bahan juga percuma. Kalau dari pabrik besar ini, lihat daftar bahannya. Asal tidak tertulis perisa makanan, atau semacamnya…",
+    "path": "videos/multilingual/id.mp4",
+    "poster": "videos/multilingual/id.jpg",
+    "width": 720,
+    "height": 412
+   },
+   {
+    "code": "vi",
+    "label": "Vietnamese",
+    "script": "Họ không ghi nhãn bừa đâu. Nhiều người hỏi đây có phải rượu ngũ cốc nguyên chất không. Có hai trường hợp. Xưởng nhỏ thì ai biết được, đúng không? Xem thành phần cũng vô ích. Còn nếu là của các hãng lớn này, cứ xem thành phần. Miễn là không ghi hương liệu thực phẩm hay gì đó…",
+    "path": "videos/multilingual/vi.mp4",
+    "poster": "videos/multilingual/vi.jpg",
+    "width": 720,
+    "height": 412
+   },
+   {
+    "code": "th",
+    "label": "Thai",
+    "script": "เขาไม่ติดฉลากมั่วหรอก หลายคนถามว่านี่เป็นเหล้าธัญพืชล้วนไหม ต้องแยกสองกรณี ถ้าเป็นโรงกลั่นเล็ก ใครจะไปรู้ จริงไหม ดูส่วนผสมก็ไม่มีประโยชน์ ถ้าเป็นของโรงกลั่นใหญ่พวกนี้ ให้ดูส่วนผสม ขอแค่ไม่ได้เขียนว่าวัตถุแต่งกลิ่นรสอาหาร หรืออะไรแบบนั้น…",
+    "path": "videos/multilingual/th.mp4",
+    "poster": "videos/multilingual/th.jpg",
     "width": 720,
     "height": 412
    }
